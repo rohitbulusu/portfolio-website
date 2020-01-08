@@ -1,0 +1,29 @@
+html,
+body {
+    margin: 0;
+    background-color: #0f0e0e;
+}
+
+
+/* Navbar elements */
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: block;
+    list-style: none;
+    color: #e9e8e8;
+    font-size: 1em;
+    padding: 2em;
+}
+
+
+/* Social Media Icons */
+
+.fab {
+    color: #750c1c;
+    font-size: 70px;
+}
