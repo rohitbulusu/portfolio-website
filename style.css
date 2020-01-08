@@ -113,16 +113,98 @@ header h1 {
 #work div.btn {
     display: flex;
     justify-content: center;
-    padding-top: 6em;
+    padding-top: 4em;
 }
 
 #btn {
     background-color: #750c1c;
     border: none;
-    padding: 0.7em 3em;
+    padding: 0.2em 3em;
     text-align: center;
     text-decoration: none;
     border-radius: 0.5rem;
     color: #e9e8e8;
     font-size: 1rem;
+}
+
+
+/* Contact section */
+
+#contact {
+    height: 60em;
+    background-color: #181717;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#contact h2 {
+    padding-top: 2em;
+    font-size: 2rem;
+    color: #e9e8e8;
+}
+
+#contact h3 {
+    color: #e9e8e8;
+}
+
+#contact h3 a {
+    color: #750c1c;
+}
+
+#contact .form {
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+}
+
+#contact .form input[type=text] {
+    color: #e9e8e8;
+    background-color: #272727;
+    border: none;
+    margin: 0.5em;
+    width: 40rem;
+    padding: 1em;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+#contact .form textarea {
+    color: #e9e8e8;
+    background-color: #272727;
+    border: none;
+    margin: 0.5em;
+    padding: 1em;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+#contact .form input[type=submit] {
+    color: #e9e8e8;
+    background-color: #750c1c;
+    border: none;
+    margin: 0.5em;
+    width: 13rem;
+    padding: 1em;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.footer {
+    height: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.footer .fab {
+    padding-bottom: 1.5em;
 }
