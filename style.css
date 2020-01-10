@@ -5,6 +5,11 @@ body {
     font-size: 16px;
 }
 
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
 h2,
 h3 {
     font-family: 'Cabin', sans-serif;
@@ -86,6 +91,8 @@ header h1 {
 
 #work {
     height: 50rem;
+    display: flex;
+    flex-flow: column;
 }
 
 #work h2 {
