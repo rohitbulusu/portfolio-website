@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #0f0e0e;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -33,7 +34,29 @@ nav ul li {
     margin: 2em;
 }
 
-nav ul li:hover {
+nav ul li a {
+    text-decoration: none;
+    color: #e9e8e8;
+}
+
+nav ul li a:unvisited {
+    text-decoration: none;
+    color: #e9e8e8;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    color: #e9e8e8;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #bd162f;
+    cursor: pointer;
+}
+
+nav ul li a:active {
+    text-decoration: none;
     color: #bd162f;
     cursor: pointer;
 }
