@@ -22,15 +22,20 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     margin-right: 4rem;
+    padding: 0;
 }
 
 nav ul li {
-    display: block;
     list-style: none;
     color: #e9e8e8;
     font-size: 1em;
-    padding: 2em;
     font-family: 'Cabin', sans-serif;
+    margin: 2em;
+}
+
+nav ul li:hover {
+    color: #bd162f;
+    cursor: pointer;
 }
 
 
