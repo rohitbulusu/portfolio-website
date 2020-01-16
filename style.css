@@ -101,7 +101,7 @@ header h1 {
 
 #about {
     background-color: #750c1c;
-    height: 40rem;
+    min-height: 40rem;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -118,13 +118,16 @@ header h1 {
     font-size: 1.2rem;
     color: #e9e8e8;
     text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 10em;
 }
 
 
 /* Recent work */
 
 #work {
-    height: 50rem;
+    min-height: 50rem;
     display: flex;
     flex-flow: column;
 }
@@ -140,9 +143,16 @@ header h1 {
 
 #projects {
     display: flex;
-    justify-content: space-evenly;
+    flex-flow: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     padding-top: 5em;
+}
+
+.projects-tiles {
+    padding: 5em;
+    flex-wrap: wrap;
 }
 
 .projects-tiles h3 {
@@ -166,13 +176,15 @@ header h1 {
     border-radius: 0.5rem;
     color: #e9e8e8;
     font-size: 1rem;
+    margin-bottom: 6em;
+    ;
 }
 
 
 /* Contact section */
 
 #contact {
-    height: 60em;
+    min-height: 60em;
     background-color: #181717;
     display: flex;
     flex-flow: column;
@@ -218,7 +230,7 @@ header h1 {
     color: #e9e8e8;
     background-color: #272727;
     border: none;
-    margin: 0.5em;
+    margin: 1em;
     padding: 1em;
     font-family: 'Cabin', sans-serif;
     font-size: 1rem;
